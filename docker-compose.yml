@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  api:
+    container_name: api
+    restart: always
+    build: ./api
+    volumes: ['./api:/api']
+    deploy:
+      resources:
+        limits:
+          memory: '256M'
+          cpus: '0.5'
+    networks:
+      - cheatnl
+
+  nginx:
+    container_name: nginx
+    restart: always
+    build: ./nginx
+    networks:
+      - cheatnl
+    ports:
+      - "10001:8080"
+
+networks:
+  cheatnl:

@@ -1,0 +1,424 @@
+{
+    "data": [
+        {
+            "msn_enemy": [
+                "ene_01"
+            ],
+            "msn_bg": "mission_01",
+            "msn_id": "msn_1",
+            "msn_grade": "c",
+            "msn_name": "Hardworking Ninja",
+            "msn_level": "1",
+            "msn_description": "Shin is the tutor of Academy. He probably can show you some moves if he sees potential.",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 15,
+            "msn_reward_gold": 20,
+            "msn_dialog": [
+                "Shin-Left:You are [character_name], right? I am the tutor of this Academy, Shin. Defeat the training dummy and show me what you got."
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_03"
+            ],
+            "msn_bg": "mission_02",
+            "msn_id": "msn_2",
+            "msn_grade": "c",
+            "msn_name": "Blacksmith's Request",
+            "msn_level": "2",
+            "msn_description": "Retrieve Kenta's precious weapon that was stolen by Ninja Bandits.",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 30,
+            "msn_reward_gold": 40,
+            "msn_dialog": [
+                "Kenta-Left:Hi [character name]! I am Kenta, the famous ninja blacksmith of Fire Village.",
+                "Kenta-Left:I have a mission for you. ",
+                "Kenta-Left: My weapon was stolen. Could you get it back for me?"
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_04"
+            ],
+            "msn_bg": "mission_02",
+            "msn_id": "msn_3",
+            "msn_grade": "c",
+            "msn_name": "Confidential Document",
+            "msn_level": "3",
+            "msn_description": "Deliver the document to the destination. Beware of assassins.",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 45,
+            "msn_reward_gold": 60,
+            "msn_dialog": [
+                "Yudai-Left:Deliver the confidential letter to the Black Ops centre outside the village. Enemies may attack you. Be careful!"
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_05"
+            ],
+            "msn_bg": "mission_02",
+            "msn_id": "msn_4",
+            "msn_grade": "c",
+            "msn_name": "Weaver's Request",
+            "msn_level": "4",
+            "msn_description": "Retrieve Mai's Golden Silk taken by Female Ninja Bandits.",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 60,
+            "msn_reward_gold": 80,
+            "msn_dialog": [
+                "Mai-Left:Hi [character name]! I am Mai! I used to be a ninja just like you, but I decided to carry on with our family business. Weaving ninja cloths has been a tradition in our family.",
+                "Mai-Left:Yesterday, a group of female ninja stole the Golden Silk from my home. It is the most expensive silk! Can you take it back for me?"
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_07"
+            ],
+            "msn_bg": "mission_02",
+            "msn_id": "msn_5",
+            "msn_grade": "c",
+            "msn_name": "Conflicts with the Samurai",
+            "msn_level": "5",
+            "msn_description": "Ninja and samurai have been rivals for a long time. Recently, the confrontation has meet its climax!",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 70,
+            "msn_reward_gold": 80,
+            "msn_dialog": [
+                "Shin-Left:Recently our conflict with the samurai has intensified! A few samurai just broke into the village and created disturbances! Dispatch them, quick!"
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_04"
+            ],
+            "msn_bg": "mission_03",
+            "msn_id": "msn_6",
+            "msn_grade": "c",
+            "msn_name": "Michi's Request",
+            "msn_level": "6",
+            "msn_description": "Deliver Michi's medical supplies to the neighboring town.",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 75,
+            "msn_reward_gold": 60,
+            "msn_dialog": [
+                "Michi-Left:Hi [character_name]! I am Michi, the head nurse of the village.",
+                "Michi-Left:Please help us to deliver some medical supplies to the neighboring town. They are suffering from a shortage."
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_04"
+            ],
+            "msn_bg": "mission_04",
+            "msn_id": "msn_7",
+            "msn_grade": "c",
+            "msn_name": "Yuna's Request",
+            "msn_level": "7",
+            "msn_description": "Deliver some Sweet Dangos.",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 150,
+            "msn_reward_gold": 90,
+            "msn_dialog": [
+                "Yuna-Left:[Character_name], I am Yuna, I make delicious Dango and Onigiri. I am also good at making ramen. If ramen is your thing, maybe you should try mine.",
+                "Yuna-Left:There is a festival in the neighbouring town. Can you deliver these dangos to my dad? He is in the festival."
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_08",
+                "ene_09"
+            ],
+            "msn_bg": "mission_03",
+            "msn_id": "msn_8",
+            "msn_grade": "c",
+            "msn_name": "Find the Antidote",
+            "msn_level": "8",
+            "msn_description": "Defeat the enemies and get the antidote from them.",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 150,
+            "msn_reward_gold": 90,
+            "msn_dialog": [
+                "BlackOpsUnit-Left:We were just seized outside the village... some of us are poisoned by their weapons... Get us the antidote! Go!"
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_03"
+            ],
+            "msn_bg": "mission_02",
+            "msn_id": "msn_9",
+            "msn_grade": "c",
+            "msn_name": "Grandmother's Gift",
+            "msn_level": "9",
+            "msn_description": "Help Aiko's grandmother buy a gift for her.",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 260,
+            "msn_reward_gold": 105,
+            "msn_dialog": [
+                "Chiyo-Left:Hello, can you help me buy a Pearl Kunai for Aiko? It is her birthday tomorrow."
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_14",
+                "ene_15"
+            ],
+            "msn_bg": "mission_04",
+            "msn_id": "msn_10",
+            "msn_grade": "c",
+            "msn_name": "Fake Worshippers",
+            "msn_level": "10",
+            "msn_description": "Save the White Monk's temple from the Wandering Monks.",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 335,
+            "msn_reward_gold": 150,
+            "msn_dialog": [
+                "Genzu-Left:I have a mission for you. The White Monks have come to us for help. The Wandering Monks have been disturbing their temple."
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_10",
+                "ene_11",
+                "ene_12"
+            ],
+            "msn_bg": "mission_05",
+            "msn_id": "msn_11",
+            "msn_grade": "c",
+            "msn_name": "Attack from Ninja Pirates",
+            "msn_level": "11",
+            "msn_description": "Protect the Merchant Ships",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 350,
+            "msn_reward_gold": 165,
+            "msn_dialog": [
+                "Yudai-Left:A group of Ninja Pirates are attacking the Merchant ships now! Some ninjas have already been there fighting the Pirates. Go there and assist them!"
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_47",
+                "ene_47"
+            ],
+            "msn_bg": "mission_06",
+            "msn_id": "msn_12",
+            "msn_grade": "c",
+            "msn_name": "Kusuma's Request",
+            "msn_level": "12",
+            "msn_description": "Kusuma is extorted by hooligans. He wants you to defeat them.",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 370,
+            "msn_reward_gold": 180,
+            "msn_dialog": [
+                "Kusuma-Left:Good... Good morning. I am Kusuma, the store owner. A group of hooligans threatened to burn down my store unless I pay them a lot of Gold.",
+                "Kusuma-Left:They will be back in a moment. Can you help me cast them away?"
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_04",
+                "ene_05"
+            ],
+            "msn_bg": "mission_03",
+            "msn_id": "msn_13",
+            "msn_grade": "c",
+            "msn_name": "Kage's Son",
+            "msn_level": "13",
+            "msn_description": "Save Norobi from the kidnappers.",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 420,
+            "msn_reward_gold": 210,
+            "msn_dialog": [
+                "Chiyo-Left:Yudai and I are very worried... being the son of the Hokage might bring him danger... we are afraid the Hokages enemies would kidnap Norobi as revenge. Can you help me to look for him?"
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_07",
+                "ene_07"
+            ],
+            "msn_bg": "mission_04",
+            "msn_id": "msn_14",
+            "msn_grade": "c",
+            "msn_name": "It's the Samurai Again",
+            "msn_level": "14",
+            "msn_description": "Oldest Ninja rivals, the samurais are disturbing our villagers again!",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 450,
+            "msn_reward_gold": 225,
+            "msn_dialog": [
+                "Yudai-Left:Hi [character name]. The samurais are back. They have gathered outside the temple and are trying to create disturbances. Please cast them away."
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_38",
+                "ene_03"
+            ],
+            "msn_bg": "mission_03",
+            "msn_id": "msn_15",
+            "msn_grade": "c",
+            "msn_name": "Assassinate the Ninja Spy Leader",
+            "msn_level": "15",
+            "msn_description": "Assassinate the Ninja Spy Leader who wants to attack our village.",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 480,
+            "msn_reward_gold": 240,
+            "msn_dialog": [
+                "Genzu-Left:We have located the leader of the ninja spy. He is in the forest. Assassinate him."
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_02",
+                "ene_02"
+            ],
+            "msn_bg": "mission_06",
+            "msn_id": "msn_16",
+            "msn_grade": "c",
+            "msn_name": "Undead Marionette",
+            "msn_level": "16",
+            "msn_description": "Three undead Marionette have appeared in the street! Hokage wants you to eliminate them... wait, why are the Marionette there?",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 540,
+            "msn_reward_gold": 240,
+            "msn_dialog": [
+                "Yudai-Left:There are some unknown weird-looking creatures are wandering in the village and have frightened the villagers. I want you to eliminate them. Catch them alive if possible, I want to investigate what kind of creatures they are."
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_28",
+                "ene_28"
+            ],
+            "msn_bg": "mission_03",
+            "msn_id": "msn_17",
+            "msn_grade": "c",
+            "msn_name": "Kenta's Favor",
+            "msn_level": "17",
+            "msn_description": "Kenta wants you to get him a special white stone. The function of the stone is still a secret.",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 570,
+            "msn_reward_gold": 270,
+            "msn_dialog": [
+                "Kenta-Left:It is good to see you again! I am making a new weapon but I need a special white stone. It is very rare but it can be found in the forest. Careful, some fierce beasts lurk in that area."
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_47",
+                "ene_60"
+            ],
+            "msn_bg": "mission_02",
+            "msn_id": "msn_18",
+            "msn_grade": "c",
+            "msn_name": "Trouble from Hooligans",
+            "msn_level": "18",
+            "msn_description": "Yuna's restaurant is disturbed by hooligans. Help her to expel the villians.",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 600,
+            "msn_reward_gold": 285,
+            "msn_dialog": [
+                "Yuna-Left:I need your help again. Recently, a group of hooligans have been disturbing my restaurant! They refused to pay for what they ate!",
+                "Yuna-Left:When I asked them for the Gold, they just destroyed the tables and chairs! They are such a trouble! Can you help me to expel them?"
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_04",
+                "ene_05"
+            ],
+            "msn_bg": "mission_07",
+            "msn_id": "msn_19",
+            "msn_grade": "c",
+            "msn_name": "Clear Main Artery",
+            "msn_level": "19",
+            "msn_description": "The ninja thieves are blocking the main artery. Cast them away.",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 630,
+            "msn_reward_gold": 300,
+            "msn_dialog": [
+                "Mai-Left: I need to deliver this newly-made gown to my client. But the ninja thieves have blocked the road. Can you clear it for me?"
+            ]
+        },
+        {
+            "msn_enemy": [
+                "ene_29",
+                "ene_31"
+            ],
+            "msn_bg": "mission_08",
+            "msn_id": "msn_20",
+            "msn_grade": "c",
+            "msn_name": "Troublesome Water Ninja",
+            "msn_level": "20",
+            "msn_description": "The young Water Ninja always disturb the ships on the port. Fight against them!",
+            "msn_premium": false,
+            "msn_daily": false,
+            "msn_campaign": false,
+            "msn_reward_tp": 0,
+            "msn_reward_xp": 660,
+            "msn_reward_gold": 315,
+            "msn_dialog": [
+                "Genzu-Left: Some young Water Ninjas always disturb the business ships in the nearby small village. They came to us for help. Teach the naughty Water Ninja a lesson!"
+            ]
+        }
+    ]
+}
