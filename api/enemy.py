@@ -1,5 +1,5 @@
 import json
-from .character import Character
+from character import Character
 
 class Enemy:
     __enemies = []

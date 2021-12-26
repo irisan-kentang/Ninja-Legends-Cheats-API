@@ -1,8 +1,8 @@
 import json
 import hashlib
-from .enemy import Enemy
-from .client import Client
-from .character import Character 
+from enemy import Enemy
+from client import Client
+from character import Character 
 
 class Mission:
     __missions = []

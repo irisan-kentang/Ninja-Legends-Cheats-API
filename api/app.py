@@ -1,10 +1,10 @@
 from flask import Flask, request, jsonify, Response
 from flask_cors import CORS, cross_origin
 import hashlib
-from .client import Client
-from .character import Character
-from .enemy import Enemy
-from .mission import Mission
+from client import Client
+from character import Character
+from enemy import Enemy
+from mission import Mission
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
