@@ -10,7 +10,7 @@ class Enemy:
         self.__enemies = json.load(enemyFile)['data']
         self.__character = character
 
-    def __get_stat(self, enemy_id, mission_level):
+    def get_stat(self, enemy_id, mission_level):
         for enemy in self.__enemies:
             if enemy['enemy_id'] == enemy_id:
                 if enemy['enemy_level'] == 99:
@@ -35,5 +35,5 @@ class Enemy:
     def get_hp(self, enemy_ids, mission_level):
         hp = 0
         for enemy_id in enemy_ids:
-            hp += self.__get_stat(enemy_id, mission_level)['hp']
+            hp += self.get_stat(enemy_id, mission_level)['hp']
         return hp

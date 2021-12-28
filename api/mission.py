@@ -30,10 +30,26 @@ class Mission:
         return self.__enemy.get_hp(enemies, self.__get_mission_level(mission_id))
 
     def instant_mission(self, uid, mission_id):
+        chara_level = self.__character.data.character_data.character_level
+        chara_wind_attr = self.__character.data.character_points.atrrib_wind
+        chara_agility = int(chara_level) + int(chara_wind_attr) + 10
+
+        enemy_ids = self.__get_mission(mission_id)['msn_enemy']
+        enemy_ids_string = ",".join(enemy_ids)
+
+        enemies_stat = []
+        for enemy_id in enemy_ids:
+            ene_stat = self.__enemy.get_stat(enemy_id, self.__get_mission_level(mission_id))
+            enemies_stat.append(f"id:{enemy_id}|hp:{ene_stat['hp']}|agility:{ene_stat['agility']}")
+
+        enemies_stat_string = "#".join(enemies_stat)
+        print(enemies_stat_string)   
+
         # start mission
+        h = hashlib.sha256(f"{enemy_ids_string}{enemies_stat_string}{chara_agility}".encode())
         r_msg = self.__client.send_remoting_amf(
             target="BattleSystem.startMission", 
-            body=[[uid, f"msn_{mission_id}"]]
+            body=[[uid, f"msn_{mission_id}", enemy_ids_string, enemies_stat_string, f"{chara_agility}", h.hexdigest(), self.__character.session_key]]
         )
 
         battle_code = r_msg.bodies[0][1].body

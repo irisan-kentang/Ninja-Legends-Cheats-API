@@ -9,7 +9,9 @@ class Client:
         headers = {
             'Referer': 'app:/NinjaLegends.swf',
             'Host': 'playninjalegends.com',
-            'Content-Type': 'application/x-amf'
+            'Content-Type': 'application/x-amf',
+            'User-Agent': 'Mozilla/5.0 (Windows; U; en) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/32.0',
+            'x-flash-version': '32,0,0,182',
         }
         self.__client = requests.Session()
         self.__client.headers = headers

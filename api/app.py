@@ -89,11 +89,10 @@ def hunting_house():
     # start hunting house
     r_msg = client.send_remoting_amf(
         target="HuntingHouse.startHunting", 
-        body=[[f"{uid}", f"{boss_num}"]]
+        body=[[f"{uid}", f"{boss_num}", character.session_key]]
     )
 
     battle_code = r_msg.bodies[0][1].body
-    print(r_msg.bodies[0][1].body)
 
     # finish mission
     h = hashlib.sha256(f"{boss_num}{uid}{battle_code}".encode())
