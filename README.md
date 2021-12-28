@@ -56,6 +56,8 @@ API for Ninja Legends Cheats.
 * Fix hash param
 ### [0.0.3] - 26/12/2021
 * Fix total damage and session key param
+### [0.0.4] - 28/12/2021
+* Fix `BattleSystem.startMission` params
 
 ## Authors
 Irisan-Kentang
