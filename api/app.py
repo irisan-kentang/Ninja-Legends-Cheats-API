@@ -10,7 +10,7 @@ from mission import Mission
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
-characters = {}
+app.config['characters'] = {}
 
 def init_nl():
     global characters
@@ -28,14 +28,14 @@ def init_nl():
         )
 
     client = Client()
-    if data['username'] in characters:
-        character = characters[data['username']]
+    if data['username'] in app.config['characters']:
+        character = app.config['characters'][data['username']]
         character.set_client(client)
     else:
         character = Character()
         character.set_client(client)
         character.login(data["profile_id"], data["username"], data["password"])
-        characters[data['username']] = character
+        app.config['characters'][data['username']] = character
 
     enemy = Enemy(character)
     mission = Mission(enemy, client, character)
