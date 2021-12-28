@@ -9,7 +9,7 @@ class Character:
     hash: str
     data = None
 
-    def __init__(self, client) -> None:
+    def set_client(self, client: Client):
         self.__client = client
 
     def login(self, profile_id, username, password):

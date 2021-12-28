@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify, Response
 from flask_cors import CORS, cross_origin
 import hashlib
+from copy import deepcopy
 from client import Client
 from character import Character
 from enemy import Enemy
@@ -9,7 +10,11 @@ from mission import Mission
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
+characters = {}
+
 def init_nl():
+    global characters
+
     data = request.json
     if data == None or "username" not in data or "password" not in data or "profile_id" not in data:
         return jsonify(
@@ -23,8 +28,14 @@ def init_nl():
         )
 
     client = Client()
-    character = Character(client)
-    character.login(data["profile_id"], data["username"], data["password"])
+    if data['username'] in characters:
+        character = characters[data['username']]
+        character.set_client(client)
+    else:
+        character = Character()
+        character.set_client(client)
+        character.login(data["profile_id"], data["username"], data["password"])
+        characters[data['username']] = character
 
     enemy = Enemy(character)
     mission = Mission(enemy, client, character)
